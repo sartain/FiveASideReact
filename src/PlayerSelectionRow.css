@@ -1,0 +1,32 @@
+.component-player-selection-row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    height: 32px;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .component-player-selection-row:hover {
+    background-color: #eee;
+  }
+
+  
+  .component-player-selection-row .position {
+    position: relative;
+    float: left;
+  }
+
+  .component-player-selection-row .name {
+    position: relative;
+    float: center;
+  }
+  
+  .component-player-selection-row .price {
+    position: relative;
+    float: right;
+  }
+  .component-player-selection-row:hover .info {
+    display: inline-block;
+  }
+  
